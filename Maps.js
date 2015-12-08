@@ -52,8 +52,7 @@ var googleMaps = {
       marker.addListener('click', function() {
          infoWindow.open(googleMaps.map, marker);
       });
-      console.log(currentLabel);
-      console.log(mailContent);
+
       var contentString =
          '<div id="content">' +
          '<div id="siteNotice">' +
